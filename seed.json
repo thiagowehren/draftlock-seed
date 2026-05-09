@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "tags": [
     {
       "id": "tank",
@@ -52,7 +52,7 @@
     {
       "id": "pos1",
       "name": "Pos1",
-      "color": "#06b6d4",
+      "color": "#7aebff",
       "counters": [],
       "counteredBy": [],
       "synergy": [],
@@ -82,6 +82,15 @@
       "id": "pick/engage/initiator",
       "name": "Pick/Engage/Initiator",
       "color": "#ffea00",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "utility",
+      "name": "Utility",
+      "color": "#28776d",
       "counters": [],
       "counteredBy": [],
       "synergy": [],
@@ -305,6 +314,10 @@
         {
           "type": "hero",
           "id": 15
+        },
+        {
+          "type": "hero",
+          "id": 79
         }
       ],
       "synergy": [],
@@ -527,7 +540,8 @@
       "gun shred",
       "spirit shred",
       "debuff",
-      "m1"
+      "m1",
+      "utility"
     ],
     "4": [
       "tank",
@@ -571,7 +585,8 @@
       "slow",
       "mid contest",
       "mid contest (dmg)",
-      "m1"
+      "m1",
+      "utility"
     ],
     "11": [
       "gun shred",
@@ -609,7 +624,8 @@
       "spirit",
       "cc",
       "movement",
-      "mid contest (dmg)"
+      "mid contest (dmg)",
+      "utility"
     ],
     "15": [
       "gun",
@@ -635,7 +651,15 @@
       "movement",
       "mid contest"
     ],
-    "18": ["tank", "pick/engage/initiator", "spirit", "heal", "disarm", "cc"],
+    "18": [
+      "tank",
+      "pick/engage/initiator",
+      "spirit",
+      "heal",
+      "disarm",
+      "cc",
+      "utility"
+    ],
     "19": ["tank", "pos 2", "spirit", "spirit shred", "debuff", "anti tank"],
     "20": [
       "support",
@@ -647,7 +671,8 @@
       "cc",
       "mid contest",
       "walker defender (bombs wave)",
-      "iframe"
+      "iframe",
+      "utility"
     ],
     "25": [
       "tank",
@@ -693,7 +718,8 @@
       "slow",
       "mid contest",
       "mid contest (dmg)",
-      "iframe"
+      "iframe",
+      "utility"
     ],
     "50": [
       "anti tank",
@@ -732,14 +758,14 @@
       "m1"
     ],
     "60": [
-      "support",
       "pick/engage/initiator",
       "spirit",
       "melee",
       "cc",
       "movement",
       "slow",
-      "mid contest"
+      "mid contest",
+      "utility"
     ],
     "63": [
       "anti tank",
@@ -789,15 +815,23 @@
       "mid contest (dmg)",
       "m1"
     ],
-    "67": ["support", "spirit", "heal", "cc", "mid contest", "spirit shred"],
-    "69": [
+    "67": [
       "support",
+      "spirit",
+      "heal",
+      "cc",
+      "mid contest",
+      "spirit shred",
+      "utility"
+    ],
+    "69": [
       "pick/engage/initiator",
       "spirit",
       "cc",
       "slow",
       "mid contest",
-      "mid contest (dmg)"
+      "mid contest (dmg)",
+      "utility"
     ],
     "72": [
       "tank",
@@ -828,7 +862,8 @@
       "cc",
       "movement",
       "mid contest",
-      "iframe"
+      "iframe",
+      "utility"
     ],
     "80": [
       "tank",
@@ -856,12 +891,15 @@
     ]
   },
   "heroItems": {
-    "1": [],
+    "1": [3005970438],
+    "2": [3005970438],
     "6": [3005970438],
+    "8": [3005970438],
     "12": [3005970438],
+    "19": [3005970438],
     "27": [3005970438],
     "52": [3005970438],
-    "72": [2108215830],
+    "72": [2108215830, 2481177645],
     "81": [3005970438]
   },
   "itemTags": {
@@ -957,6 +995,12 @@
     "60": [],
     "69": [],
     "72": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "79": [
       {
         "type": "tag",
         "id": "movement"
@@ -1198,7 +1242,7 @@
     "72": "B",
     "76": "D",
     "77": "A",
-    "79": "C",
+    "79": "B",
     "80": "S",
     "81": "S"
   }
