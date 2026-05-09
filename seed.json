@@ -1,0 +1,1204 @@
+{
+  "tags": [
+    {
+      "id": "tank",
+      "name": "Tank",
+      "color": "#3b82f6",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "tag",
+          "id": "gun shred"
+        },
+        {
+          "type": "tag",
+          "id": "spirit shred"
+        },
+        {
+          "type": "tag",
+          "id": "anti tank"
+        },
+        {
+          "type": "item",
+          "id": 2121044373
+        },
+        {
+          "type": "item",
+          "id": 3696726732
+        },
+        {
+          "type": "item",
+          "id": 2417568017
+        }
+      ],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "anti tank",
+      "name": "Anti Tank",
+      "color": "#ef4444",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "tank"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "pos1",
+      "name": "Pos1",
+      "color": "#06b6d4",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true,
+      "hidden": false
+    },
+    {
+      "id": "pos 2",
+      "name": "Pos 2",
+      "color": "#bd07d5",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true,
+      "hidden": false
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "color": "#22c55e",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "pick/engage/initiator",
+      "name": "Pick/Engage/Initiator",
+      "color": "#ffea00",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "m1",
+      "name": "M1",
+      "color": "#ead54d",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "tag",
+          "id": "disarm"
+        },
+        {
+          "type": "tag",
+          "id": "fire rate slow"
+        }
+      ],
+      "synergy": [
+        {
+          "type": "item",
+          "id": 2108215830
+        }
+      ]
+    },
+    {
+      "id": "gun",
+      "name": "Gun",
+      "color": "#f97316",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "tag",
+          "id": "anti gun"
+        },
+        {
+          "type": "tag",
+          "id": "disarm"
+        }
+      ],
+      "synergy": [
+        {
+          "type": "tag",
+          "id": "gun shred"
+        },
+        {
+          "type": "item",
+          "id": 2108215830
+        },
+        {
+          "type": "hero",
+          "id": 72
+        }
+      ]
+    },
+    {
+      "id": "anti gun",
+      "name": "Anti Gun",
+      "color": "#d5903f",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [
+        {
+          "type": "tag",
+          "id": "disarm"
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit",
+      "color": "#6f39a2",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "tag",
+          "id": "anti spirit"
+        },
+        {
+          "type": "tag",
+          "id": "silence"
+        }
+      ],
+      "synergy": [
+        {
+          "type": "item",
+          "id": 3005970438
+        },
+        {
+          "type": "item",
+          "id": 2081037738
+        },
+        {
+          "type": "item",
+          "id": 1144549437
+        },
+        {
+          "type": "item",
+          "id": 1219329868
+        },
+        {
+          "type": "item",
+          "id": 2142980412
+        }
+      ]
+    },
+    {
+      "id": "anti spirit",
+      "name": "Anti Spirit",
+      "color": "#c288f0",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "spirit"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": []
+    },
+    {
+      "id": "melee",
+      "name": "Melee",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 4204808176
+        },
+        {
+          "type": "item",
+          "id": 1342610602
+        },
+        {
+          "type": "item",
+          "id": 395944548
+        },
+        {
+          "type": "item",
+          "id": 2095565695
+        },
+        {
+          "type": "item",
+          "id": 1250307611
+        }
+      ],
+      "synergy": [],
+      "hidden": true
+    },
+    {
+      "id": "heal",
+      "name": "Heal",
+      "color": "#53b275",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "tag",
+          "id": "anti heal"
+        }
+      ],
+      "synergy": []
+    },
+    {
+      "id": "anti heal",
+      "name": "Anti Heal",
+      "color": "#74835d",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "heal"
+        }
+      ],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 1797283378
+        },
+        {
+          "type": "item",
+          "id": 1055679805
+        },
+        {
+          "type": "item",
+          "id": 2566692615
+        }
+      ],
+      "synergy": []
+    },
+    {
+      "id": "movement",
+      "name": "Movement",
+      "color": "#06b6d4",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 1813726886
+        },
+        {
+          "type": "tag",
+          "id": "slow"
+        },
+        {
+          "type": "hero",
+          "id": 72
+        },
+        {
+          "type": "hero",
+          "id": 7
+        },
+        {
+          "type": "item",
+          "id": 1152158042
+        },
+        {
+          "type": "item",
+          "id": 710436191
+        },
+        {
+          "type": "hero",
+          "id": 15
+        }
+      ],
+      "synergy": [],
+      "hidden": false
+    },
+    {
+      "id": "disarm",
+      "name": "Disarm",
+      "color": "#6b7280",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "m1"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": []
+    },
+    {
+      "id": "silence",
+      "name": "Silence",
+      "color": "#6b7280",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "spirit"
+        }
+      ],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 1644605047
+        }
+      ],
+      "synergy": [],
+      "hidden": false
+    },
+    {
+      "id": "cc",
+      "name": "CC",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 1644605047
+        }
+      ],
+      "synergy": []
+    },
+    {
+      "id": "debuff resist",
+      "name": "Debuff Resist",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": []
+    },
+    {
+      "id": "slow",
+      "name": "Slow",
+      "color": "#6b7280",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "movement"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": false
+    },
+    {
+      "id": "gun shred",
+      "name": "Gun Shred",
+      "color": "#d2b28e",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "tank"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [
+        {
+          "type": "tag",
+          "id": "gun"
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": "spirit shred",
+      "name": "Spirit Shred",
+      "color": "#c288f0",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "tank"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [],
+      "hidden": false
+    },
+    {
+      "id": "debuff",
+      "name": "Debuff",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [
+        {
+          "type": "item",
+          "id": 3731635960
+        }
+      ],
+      "synergy": []
+    },
+    {
+      "id": "mid contest",
+      "name": "Mid Contest",
+      "color": "#eab308",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": true
+    },
+    {
+      "id": "mid contest (dmg)",
+      "name": "Mid Contest (dmg)",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "hidden": true
+    },
+    {
+      "id": "walker defenders",
+      "name": "Walker Defenders",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "essential": false,
+      "hidden": true
+    },
+    {
+      "id": "walker defender (bombs wave)",
+      "name": "Walker Defender (bombs wave)",
+      "color": "#6b7280",
+      "counters": [],
+      "counteredBy": [],
+      "synergy": [],
+      "hidden": true
+    },
+    {
+      "id": "iframe",
+      "name": "iframe",
+      "color": "#6b7280",
+      "counters": [
+        {
+          "type": "hero",
+          "id": 15
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [],
+      "hidden": true
+    },
+    {
+      "id": "fire rate slow",
+      "name": "Fire rate slow",
+      "color": "#6b7280",
+      "counters": [
+        {
+          "type": "tag",
+          "id": "m1"
+        }
+      ],
+      "counteredBy": [],
+      "synergy": [],
+      "hidden": true
+    }
+  ],
+  "heroTags": {
+    "1": [
+      "anti spirit",
+      "anti tank",
+      "pos1",
+      "pos 2",
+      "spirit",
+      "heal",
+      "anti heal",
+      "cc",
+      "debuff",
+      "mid contest",
+      "m1"
+    ],
+    "2": [
+      "anti tank",
+      "pos1",
+      "pos 2",
+      "spirit",
+      "cc",
+      "spirit shred",
+      "mid contest (dmg)",
+      "walker defenders",
+      "walker defender (bombs wave)",
+      "m1"
+    ],
+    "3": [
+      "anti tank",
+      "pick/engage/initiator",
+      "gun",
+      "spirit",
+      "anti heal",
+      "cc",
+      "movement",
+      "slow",
+      "gun shred",
+      "spirit shred",
+      "debuff",
+      "m1"
+    ],
+    "4": [
+      "tank",
+      "pos1",
+      "pos 2",
+      "gun",
+      "spirit",
+      "heal",
+      "silence",
+      "walker defender (bombs wave)",
+      "m1"
+    ],
+    "6": [
+      "tank",
+      "pick/engage/initiator",
+      "spirit",
+      "cc",
+      "mid contest",
+      "debuff resist",
+      "heal",
+      "movement"
+    ],
+    "7": [
+      "pos1",
+      "pick/engage/initiator",
+      "gun",
+      "spirit",
+      "cc",
+      "movement",
+      "slow",
+      "m1"
+    ],
+    "8": ["support", "spirit", "heal", "mid contest (dmg)"],
+    "10": [
+      "anti tank",
+      "pick/engage/initiator",
+      "gun",
+      "spirit",
+      "silence",
+      "cc",
+      "slow",
+      "mid contest",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "11": [
+      "gun shred",
+      "slow",
+      "movement",
+      "cc",
+      "heal",
+      "support",
+      "gun",
+      "spirit",
+      "mid contest",
+      "iframe"
+    ],
+    "12": [
+      "support",
+      "spirit",
+      "heal",
+      "movement",
+      "slow",
+      "mid contest",
+      "walker defenders"
+    ],
+    "13": [
+      "anti tank",
+      "pos 2",
+      "pick/engage/initiator",
+      "gun",
+      "cc",
+      "debuff",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "14": [
+      "pick/engage/initiator",
+      "spirit",
+      "cc",
+      "movement",
+      "mid contest (dmg)"
+    ],
+    "15": [
+      "gun",
+      "cc",
+      "pos 2",
+      "mid contest (dmg)",
+      "pick/engage/initiator",
+      "m1"
+    ],
+    "16": [
+      "pick/engage/initiator",
+      "spirit",
+      "melee",
+      "movement",
+      "mid contest (dmg)",
+      "iframe"
+    ],
+    "17": [
+      "pos 2",
+      "pick/engage/initiator",
+      "spirit",
+      "cc",
+      "movement",
+      "mid contest"
+    ],
+    "18": ["tank", "pick/engage/initiator", "spirit", "heal", "disarm", "cc"],
+    "19": ["tank", "pos 2", "spirit", "spirit shred", "debuff", "anti tank"],
+    "20": [
+      "support",
+      "pick/engage/initiator",
+      "gun",
+      "spirit",
+      "heal",
+      "silence",
+      "cc",
+      "mid contest",
+      "walker defender (bombs wave)",
+      "iframe"
+    ],
+    "25": [
+      "tank",
+      "pos1",
+      "pos 2",
+      "gun",
+      "anti gun",
+      "silence",
+      "cc",
+      "debuff resist",
+      "slow",
+      "debuff",
+      "mid contest (dmg)",
+      "walker defenders",
+      "m1"
+    ],
+    "27": [
+      "tank",
+      "pos 2",
+      "spirit",
+      "melee",
+      "heal",
+      "movement",
+      "slow",
+      "mid contest",
+      "iframe"
+    ],
+    "31": [
+      "gun",
+      "spirit",
+      "heal",
+      "movement",
+      "mid contest",
+      "slow",
+      "walker defenders",
+      "m1"
+    ],
+    "35": [
+      "support",
+      "spirit",
+      "melee",
+      "cc",
+      "slow",
+      "mid contest",
+      "mid contest (dmg)",
+      "iframe"
+    ],
+    "50": [
+      "anti tank",
+      "spirit",
+      "anti heal",
+      "movement",
+      "slow",
+      "pos 2",
+      "mid contest (dmg)",
+      "walker defenders",
+      "walker defender (bombs wave)",
+      "iframe"
+    ],
+    "52": [
+      "pos1",
+      "pos 2",
+      "spirit",
+      "cc",
+      "movement",
+      "mid contest (dmg)",
+      "iframe",
+      "m1"
+    ],
+    "58": [
+      "anti tank",
+      "pos1",
+      "pos 2",
+      "gun",
+      "spirit",
+      "anti heal",
+      "cc",
+      "movement",
+      "slow",
+      "gun shred",
+      "mid contest",
+      "m1"
+    ],
+    "60": [
+      "support",
+      "pick/engage/initiator",
+      "spirit",
+      "melee",
+      "cc",
+      "movement",
+      "slow",
+      "mid contest"
+    ],
+    "63": [
+      "anti tank",
+      "pos1",
+      "pos 2",
+      "spirit",
+      "silence",
+      "movement",
+      "slow",
+      "mid contest (dmg)",
+      "iframe",
+      "m1"
+    ],
+    "64": [
+      "anti heal",
+      "anti tank",
+      "gun",
+      "melee",
+      "silence",
+      "gun shred",
+      "debuff",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "65": [
+      "anti tank",
+      "pos1",
+      "pos 2",
+      "gun",
+      "melee",
+      "anti heal",
+      "cc",
+      "mid contest",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "66": [
+      "tank",
+      "pos1",
+      "pos 2",
+      "gun",
+      "spirit",
+      "heal",
+      "cc",
+      "slow",
+      "mid contest",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "67": ["support", "spirit", "heal", "cc", "mid contest", "spirit shred"],
+    "69": [
+      "support",
+      "pick/engage/initiator",
+      "spirit",
+      "cc",
+      "slow",
+      "mid contest",
+      "mid contest (dmg)"
+    ],
+    "72": [
+      "tank",
+      "movement",
+      "cc",
+      "pick/engage/initiator",
+      "mid contest",
+      "m1",
+      "gun"
+    ],
+    "76": [
+      "pos1",
+      "pos 2",
+      "anti tank",
+      "debuff",
+      "spirit",
+      "gun",
+      "anti gun",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "77": ["cc", "spirit", "mid contest", "movement", "iframe"],
+    "79": [
+      "support",
+      "pick/engage/initiator",
+      "spirit",
+      "heal",
+      "cc",
+      "movement",
+      "mid contest",
+      "iframe"
+    ],
+    "80": [
+      "tank",
+      "pos 2",
+      "gun",
+      "heal",
+      "disarm",
+      "cc",
+      "movement",
+      "slow",
+      "gun shred",
+      "mid contest (dmg)",
+      "m1"
+    ],
+    "81": [
+      "anti tank",
+      "pos 2",
+      "spirit",
+      "silence",
+      "movement",
+      "slow",
+      "debuff",
+      "mid contest (dmg)",
+      "m1"
+    ]
+  },
+  "heroItems": {
+    "1": [],
+    "6": [3005970438],
+    "12": [3005970438],
+    "27": [3005970438],
+    "52": [3005970438],
+    "72": [2108215830],
+    "81": [3005970438]
+  },
+  "itemTags": {
+    "26002154": ["melee"],
+    "98582110": ["gun shred"],
+    "339443430": ["debuff resist"],
+    "343572757": ["anti heal"],
+    "381961617": ["heal"],
+    "393974127": ["slow"],
+    "493591231": ["slow", "cc"],
+    "499683006": ["heal"],
+    "619484391": ["anti spirit", "silence"],
+    "710436191": ["slow"],
+    "800008313": ["melee"],
+    "865846625": ["heal"],
+    "876563814": ["heal"],
+    "989206714": ["debuff resist"],
+    "1047818222": ["debuff resist"],
+    "1055679805": ["heal"],
+    "1102081447": ["slow"],
+    "1113837674": ["anti spirit", "silence"],
+    "1144549437": ["spirit shred"],
+    "1152158042": ["slow"],
+    "1219329868": ["anti spirit", "spirit shred"],
+    "1235347618": [],
+    "1250307611": ["fire rate slow"],
+    "1252627263": ["heal", "melee"],
+    "1254091416": ["cc"],
+    "1371725689": ["cc", "disarm"],
+    "1378931225": ["anti gun"],
+    "1409190604": ["anti spirit"],
+    "1427630806": ["heal"],
+    "1644605047": [],
+    "1797283378": ["heal"],
+    "1804594021": ["heal"],
+    "1813726886": ["slow"],
+    "1925087134": ["anti gun", "fire rate slow"],
+    "1932939246": ["gun shred"],
+    "1955841979": ["anti spirit", "debuff resist"],
+    "1976391348": ["slow"],
+    "2037039379": ["anti heal"],
+    "2059712766": ["heal"],
+    "2061878743": ["gun shred", "anti gun"],
+    "2081037738": ["spirit shred"],
+    "2095565695": ["slow"],
+    "2108215830": ["anti gun"],
+    "2121044373": ["anti tank"],
+    "2142980412": ["spirit shred"],
+    "2163598980": [],
+    "2407781327": ["slow"],
+    "2417568017": ["debuff resist", "anti tank"],
+    "2463960640": ["anti gun"],
+    "2481177645": ["gun shred", "fire rate slow"],
+    "2566692615": ["heal"],
+    "2603935618": ["anti heal", "heal"],
+    "2678489038": ["gun shred"],
+    "2922054143": ["anti gun", "gun shred", "fire rate slow"],
+    "2947183272": ["heal"],
+    "2956256701": ["heal"],
+    "2971868509": ["gun shred"],
+    "3005970438": ["spirit shred"],
+    "3028234315": ["anti spirit"],
+    "3074274290": [],
+    "3140772621": [],
+    "3144988365": ["anti heal"],
+    "3190916303": ["spirit shred", "melee"],
+    "3270001687": ["anti gun"],
+    "3357231760": ["debuff resist"],
+    "3361075077": ["anti gun"],
+    "3491236900": ["anti gun"],
+    "3577481646": ["heal"],
+    "3696726732": ["anti heal", "anti tank"],
+    "3731635960": [],
+    "3791587546": ["debuff resist", "slow"],
+    "3884003354": ["anti heal", "gun shred"],
+    "3970837787": [],
+    "4075861416": ["spirit shred"]
+  },
+  "heroCounters": {
+    "1": [],
+    "7": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "15": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "60": [],
+    "69": [],
+    "72": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ]
+  },
+  "heroCounteredBy": {
+    "1": [],
+    "15": [
+      {
+        "type": "tag",
+        "id": "iframe"
+      }
+    ],
+    "72": []
+  },
+  "heroSynergy": {
+    "1": [],
+    "15": [],
+    "72": [
+      {
+        "type": "item",
+        "id": 2108215830
+      },
+      {
+        "type": "tag",
+        "id": "gun"
+      }
+    ]
+  },
+  "itemCounters": {
+    "393974127": [],
+    "395944548": [
+      {
+        "type": "tag",
+        "id": "melee"
+      }
+    ],
+    "619484391": [],
+    "710436191": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "1055679805": [
+      {
+        "type": "tag",
+        "id": "anti heal"
+      }
+    ],
+    "1113837674": [],
+    "1152158042": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "1250307611": [
+      {
+        "type": "tag",
+        "id": "melee"
+      }
+    ],
+    "1342610602": [
+      {
+        "type": "tag",
+        "id": "melee"
+      }
+    ],
+    "1427630806": [],
+    "1644605047": [
+      {
+        "type": "tag",
+        "id": "cc"
+      },
+      {
+        "type": "tag",
+        "id": "silence"
+      }
+    ],
+    "1797283378": [
+      {
+        "type": "tag",
+        "id": "anti heal"
+      }
+    ],
+    "1813726886": [
+      {
+        "type": "tag",
+        "id": "movement"
+      }
+    ],
+    "2095565695": [
+      {
+        "type": "tag",
+        "id": "melee"
+      }
+    ],
+    "2121044373": [
+      {
+        "type": "tag",
+        "id": "tank"
+      }
+    ],
+    "2142980412": [],
+    "2417568017": [
+      {
+        "type": "tag",
+        "id": "tank"
+      }
+    ],
+    "2481177645": [],
+    "2566692615": [
+      {
+        "type": "tag",
+        "id": "anti heal"
+      }
+    ],
+    "3005970438": [],
+    "3696726732": [
+      {
+        "type": "tag",
+        "id": "tank"
+      }
+    ],
+    "3731635960": [
+      {
+        "type": "tag",
+        "id": "debuff"
+      }
+    ],
+    "3791587546": [],
+    "3884003354": [],
+    "4204808176": [
+      {
+        "type": "tag",
+        "id": "melee"
+      }
+    ]
+  },
+  "itemCounteredBy": {
+    "393974127": [],
+    "710436191": [
+      {
+        "type": "item",
+        "id": 26002154
+      },
+      {
+        "type": "item",
+        "id": 800008313
+      },
+      {
+        "type": "item",
+        "id": 3731635960
+      }
+    ],
+    "1055679805": [],
+    "1644605047": [],
+    "1797283378": [],
+    "1813726886": [],
+    "2142980412": [],
+    "3005970438": [],
+    "3791587546": []
+  },
+  "itemSynergy": {
+    "98582110": [],
+    "393974127": [],
+    "710436191": [],
+    "1055679805": [],
+    "1219329868": [
+      {
+        "type": "tag",
+        "id": "spirit"
+      }
+    ],
+    "1644605047": [],
+    "1797283378": [],
+    "1813726886": [],
+    "2108215830": [
+      {
+        "type": "tag",
+        "id": "gun"
+      },
+      {
+        "type": "tag",
+        "id": "m1"
+      }
+    ],
+    "2142980412": [
+      {
+        "type": "tag",
+        "id": "spirit"
+      }
+    ],
+    "2481177645": [],
+    "2971868509": [],
+    "3005970438": [
+      {
+        "type": "item",
+        "id": 3005970438
+      }
+    ],
+    "3791587546": []
+  },
+  "heroTiers": {
+    "1": "A",
+    "2": "D",
+    "3": "C",
+    "4": "B",
+    "6": "B",
+    "7": "D",
+    "8": "D",
+    "10": "A",
+    "11": "S",
+    "12": "B",
+    "13": "A",
+    "14": "C",
+    "15": "S",
+    "16": "C",
+    "17": "B",
+    "18": "B",
+    "19": "A",
+    "20": "B",
+    "25": "S",
+    "27": "C",
+    "31": "A",
+    "35": "B",
+    "50": "A",
+    "52": "S",
+    "58": "A",
+    "60": "A",
+    "63": "S",
+    "64": "C",
+    "65": "A",
+    "66": "B",
+    "67": "D",
+    "69": "S",
+    "72": "B",
+    "76": "D",
+    "77": "A",
+    "79": "C",
+    "80": "S",
+    "81": "S"
+  }
+}
